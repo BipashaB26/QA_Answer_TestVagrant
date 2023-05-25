@@ -26,10 +26,10 @@ test_recently_played.py
 
     cd QA_Answer_TestVagrant
 
-3. (Optional) Set up a virtual environment:
+3. Set up a virtual environment:
   ```  
-    python3 -m venv venv
-    source venv/bin/activate
+    python -m venv venv
+    source venv/scripts/activate
   ```
 
 4. Install the required dependencies:
