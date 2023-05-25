@@ -33,22 +33,22 @@ test_recently_played.py
   ```
 
 4. Install the required dependencies:
-
+  ```
     pip install -r requirements.txt
+  ```
 
 5. Run the tests:
-
+  ```
     python -m pytest
-
+  ```
     - This will execute the `test_recently_played.py` file and verify the functionality of the RecentlyPlayed class
 
 6. Use the RecentlyPlayed class in your own code by importing it:
 
 ```python
 from my_app.recently_played import RecentlyPlayed
+
+#Create an instance of RecentlyPlayed and use its methods
 ```
-
-Create an instance of RecentlyPlayed and use its methods
-
  
 
