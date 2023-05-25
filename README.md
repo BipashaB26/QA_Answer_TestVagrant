@@ -18,35 +18,37 @@ test_recently_played.py
 
 ## Installation and Execution
 
-1. Clone the repository:
+1. Clone the repository: 
 
-https://github.com/BipashaB26/QA_Answer_TestVagrant
+    https://github.com/BipashaB26/QA_Answer_TestVagrant
 
-2. Change into the project directory:
+2. Change into the project directory: 
 
-cd my_app
+    cd QA_Answer_TestVagrant
 
 3. (Optional) Set up a virtual environment:
-
-python3 -m venv venv
-source venv/bin/activate
+  ```  
+    python3 -m venv venv
+    source venv/bin/activate
+  ```
 
 4. Install the required dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 5. Run the tests:
 
-python -m pytest
+    python -m pytest
 
-- This will execute the `test_recently_played.py` file and verify the functionality of the RecentlyPlayed class.
+    - This will execute the `test_recently_played.py` file and verify the functionality of the RecentlyPlayed class
 
 6. Use the RecentlyPlayed class in your own code by importing it:
 
 ```python
 from my_app.recently_played import RecentlyPlayed
+```
 
-# Create an instance of RecentlyPlayed and use its methods
+Create an instance of RecentlyPlayed and use its methods
 
  
 
