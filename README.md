@@ -41,7 +41,7 @@ test_recently_played.py
   ```
     python -m pytest
   ```
-    - This will execute the `test_recently_played.py` file and verify the functionality of the RecentlyPlayed class
+  - This will execute the `test_recently_played.py` file and verify the functionality of the RecentlyPlayed class
 
 6. Use the RecentlyPlayed class in your own code by importing it:
 
